@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: letskube
-        image: kontacthimanshu/letsprometheus:v5
+        image: kontacthimanshu/letsprometheus:v7
         imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
